@@ -1,0 +1,44 @@
+html{
+    display: flex;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: aqua;
+    height: 100vh;
+
+}
+
+.header {
+    flex: 1;
+
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+ 
+    flex: 8;
+   
+}
+
+.box {
+    flex: 1;
+    border: 5px solid yellow;
+    background-color: green;
+    margin:  16px;
+
+}
+
+
+
+.footer {
+    flex: 1;
+
+
+}
