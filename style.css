@@ -1,6 +1,7 @@
 html{
     display: flex;
-
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -9,6 +10,8 @@ body{
     flex: 1;
     background-color: aqua;
     height: 100vh;
+    margin: 0;
+    padding: 0;
 
 }
 
