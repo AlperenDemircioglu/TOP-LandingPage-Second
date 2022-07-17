@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 100vh;
+    height: 300vh;
     margin: 0;
     padding: 0;
 
@@ -68,11 +68,19 @@ a:hover {
    
 }
 
-.box {
+.horizonbox {
+    display: flex;
+    flex-direction: row;
     flex: 1;
-    border: 5px solid yellow;
-    background-color: green;
-    margin:  16px;
+
+
+}
+
+.verticalbox{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
 
 }
 
